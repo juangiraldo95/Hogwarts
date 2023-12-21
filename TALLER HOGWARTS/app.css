@@ -1,0 +1,137 @@
+/* Estilo para la página principal */
+.bg-hogwarts {
+    background: url('./IMG/harryfondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(232, 248, 6);
+    font-family: 'Harry Potter', cursive;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.harry-font{
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+
+/* Estilo para el botón */
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    font-family: 'Harry Potter', cursive;
+    font-size: 30px;
+}
+.btn-redireccion {
+    background-color: #343a40;
+    border-color: #343a40;
+    font-family: 'Harry Potter', cursive;
+    font-size: 30px;
+   
+}
+.btn-dark:hover {
+    background-color: #23282c;
+    border-color: #23282c;
+}
+.bg-gryffindor {
+    background-image: url('./IMG/logogryfindor.webp');
+}
+
+.bg-hufflepuff {
+    background-image: url('./IMG/logohufflepuff.jpg'); 
+}
+.bg-ravenclaw{
+    background-image: url('./IMG/logorevenclaw.jpg');
+}
+
+.bg-slytherin{
+    background-image: url('./IMG/logoslytherin.jpg');
+}
+.bienvenida{
+   display: block;
+}.gallery
+.formulario{
+    display: none;
+}
+
+label{
+    display: block;
+    margin-bottom: 4px;
+}
+
+input{
+    width: 40%;
+    padding: 4px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #f50a16;
+    color: white;
+    cursor: pointer;
+}
+.escudos{
+    width: 15%;
+    display: none;
+    align-items: center;
+    
+}
+.pruebaSombrero{
+    width: 20%;
+    height: 15%;
+}
+
+.profesor {
+    text-align: center;
+    
+    padding: 15px;
+}
+
+.profesor img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 8px;
+}
+.inicio{
+    text-align: center;
+    font-family: 'Harry Potter', cursive;
+
+}
+.body {
+    background: url('./IMG/fondo2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(232, 248, 6);
+    font-family: 'Harry Potter', cursive;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#boggartContainer {
+    /* Estilo para el contenedor de la transformación */
+    width: 200px;
+    height: 200px; 
+    background-color: #f0f0f0; 
+    margin-top: 20px;
+    position: relative;
+}
+#imgpelea img{
+    width: 30%;
+    height: 15%;
+    align-items: center;
+}
+#dragon{
+    width: 30%;
+    height: 15%;
+    align-items: center;
+}

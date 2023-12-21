@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Home</title>
+</head>
+<body class="body">
+    <div class="inicio">
+        <h2>BIENVENIDO A TU ESCUELA DE MAGIA</h2>
+        <h3>Esta es la lista de profesores, y tu horario de clases, buena suerte en tus estudios.</h3>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+        <div class="profesor div1">
+          <img src="./IMG/profesor1.jpg" alt="Profesor1">
+          <div class="descripcion">
+            <h3>Profesor Kevin Slughorn</h3>
+            <p>Transformaciones</p>
+            <p>Horario: 08:00 - 10:00</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="profesor div2">
+          <img src="./IMG/profesor2.jpg" alt="Profesor2">
+          <div class="descripcion">
+            <h3>Profesor Maria Umbridge</h3>
+            <p>Herbologia</p>
+            <p>Horario 10:00 - 12:00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="profesor div3">
+            <img src="./IMG/profesor3.jpg" alt="Profesor3">
+            <div class="descripcion">
+                <h3>Profesor Liliana McGonagall</h3>
+                <p>Pociones</p>
+                <p>Horario 12:00 - 14:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="profesor div4">
+            <img src="./IMG/profesor4.jpg" alt="Profesor4">
+            <div class="descripcion">
+                <h3>Profesora Jackie</h3>
+                <p>Encantamientos</p>
+                <p>Horario 18:00 - 20:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="profesor div5">
+            <img src="./IMG/profesor5.jpg" alt="Profesor5">
+            <div class="descripcion">
+                <h3>Profesor Robinson Snape</h3>
+                <p>Defensa contra las artes oscuras</p>
+                <p>Horario 20:00 - 24:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="profesor div6">
+            <img src="./IMG/profesor6.jpg" alt="Profesor6">
+            <div class="descripcion">
+                <h3>Profesor David Filch</h3>
+                <p>Animales Magicos</p>
+                <p>Horario Sabados 10:00 - 12:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="profesor div7">
+            <img src="./IMG/profesor7.jpg" alt="Profesor7">
+            <div class="descripcion">
+                <h3>Profesor Ronald Sprout</h3>
+                <p>Historia de la Magia</p>
+                <p>Horario Sabados 12:00 - 14:00</p>
+            </div>
+      </div>
+    </div>
+  </div>
+    <section class="container">
+      <div class="row">
+        <div><h3>Te encuentras un bogart, preparate para correr o para pelear</h3></div>
+        <div class="col-md-12">
+          <img src="" alt="" id="imagen">
+          <div id="fondo">
+          <button onclick="pelearBoggart()">Pelear</button>
+          <button onclick="correrBoggart()">Correr</button>
+          <div id="imgpelea">
+            <img src="./IMG/harrycorriendo.jpg" alt="" id="harrycorriendo" class="d-none">
+            <img src="./IMG/harryvsboggart.jpg" alt="" id="harryvsboggart" class="d-none">
+          </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p>Ahora debes descubrir tu animal Patronus, ve por ello crack!</p>
+        <button onclick="animalPatronus()">Descubre tu animal</button>
+        <img src="./IMG/dragon.jpg" alt="" id="dragon" class="d-none">
+      </div>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

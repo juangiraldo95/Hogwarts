@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bienvenido a Hogwarts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./app.css">
+    <!-- link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Harry+Potter&display=swap"> -->
+</head>
+<body class="bg-hogwarts mt-5">
+
+    <div class="container text-center mt-5">
+        <div class="bienvenida" id="bienvenida">
+            <h1 class="harry-font mb-4">Bienvenido a Hogwarts</h1>
+            <p class="text-light mb-4">Tu viaje comienza aquí, buena suerte</p>
+            <button onclick="formulario()" class="btn btn-dark btn-lg">Inicia tu aventura</button>
+        </div>
+        <div class="formulario" id="formulario" style="display: none;">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="familia">Familia</label>
+            <input type="text" id="familia" name="familia" required>
+            <br>
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad" required>
+            <br>
+            <select name="" id="linaje">
+                <option value="" disabled>Selecciona tu linaje</option>
+                <option value="Mestizo">Mestizo</option>
+                <option value="Muggle">Muggle</option>
+                <option value="Sangre Pura">Sangre Pura</option>
+            </select>
+            <br><br>
+            <select name="" id="cualidades">
+                <option value="" disabled>Elije tus cualidades</option>
+                <option value="Gryffindor">Valor, Fuerza, Audacia</option>
+                <option value="Hufflepuff">Justicia, Lealtad, Paciencia</option>
+                <option value="Ravenclaw">Creatividad, Erudición, Inteligencia</option>
+                <option value="Slytherin">Ambición, Determinación, Astucia</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Enviar" onclick="seleccionCasa()">
+        </div>
+        <div id="mostrarDatos" class="d-none">
+        </div>
+        <div class="container">
+            <img id="pruebaSombrero" class="d-none" src="./IMG/sombrero.jpg" alt="">
+        </div>
+        <div id="escudos" class="escudos">
+            <img src="./IMG/logogryfindor-removebg-preview.png" alt="" id="escudo1" class="d-none">
+            <img src="./IMG/logohufflepuff-removebg-preview.png" alt="" id="escudo2" class="d-none">
+            <img src="./IMG/logorevenclaw-removebg-preview.png" alt="" id="escudo3" class="d-none">
+            <img src="./IMG/logoslytherin-removebg-preview.png" alt="" id="escudo4" class="d-none">
+        </div>
+        <div>
+            <input type="submit" id="siguiente" class="d-none" value="Siguiente Etapa" onclick="window.location.href='home.html'">
+        </div>
+
+    </div>
+
+    <script src="./script.js"> </script>
+</body>
+</html>
+
+
